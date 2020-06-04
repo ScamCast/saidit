@@ -41,7 +41,7 @@ import tinycss2
 from pylons.i18n import N_
 
 from r2.lib.contrib import rcssmin
-from r2.lib.utils import tup
+om r2.lib.utils import tup
 from pylons import app_globals as g
 
 __all__ = ["validate_css"]
@@ -267,6 +267,31 @@ SAFE_PROPERTIES = {
     "resize",
     "richness",
     "right",
+    "scroll-snap-type"
+    "scroll-snap-stop"
+    "scroll-padding",
+    "scroll-padding-top",
+    "scroll-padding-right",
+    "scroll-padding-bottom",
+    "scroll-padding-left",
+    "scroll-padding-inline",
+    "scroll-padding-inline-start",
+    "scroll-padding-inline-end",
+    "scroll-padding-block",
+    "scroll-padding-block-start",
+    "scroll-padding-block-end",
+    "scroll-snap-align",
+    "scroll-margin",
+    "scroll-margin-top",
+    "scroll-margin-right",
+    "scroll-margin-bottom",
+    "scroll-margin-left",
+    "scroll-margin-inline",
+    "scroll-margin-inline-start",
+    "scroll-margin-inline-end",
+    "scroll-margin-block",
+    "scroll-margin-block-start",
+    "scroll-margin-block-end",
     "speak",
     "speak-header",
     "speak-numeral",
